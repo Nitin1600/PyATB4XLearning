@@ -18,3 +18,4 @@ print(sum)
 
 a, b, c = 12, 20, 45
 print(a, b, c, sep="_")
+print("Hello World")
