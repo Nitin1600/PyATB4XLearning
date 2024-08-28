@@ -12,11 +12,16 @@
 #     case _:
 #         print("Browser not found!")
 
-user_type = input("Enter the user type,admin,manager,guest\n")
-match user_type:
-    case "admin" | "manager":
-        print("Hello Sir")
-    case "guest":
-        print("Hello Guest")
-    case _:
-        print("Hello, There!")
+# user_type = input("Enter the user type,admin,manager,guest\n")
+# match user_type:
+#     case "admin" | "manager":
+#         print("Hello Sir")
+#     case "guest":
+#         print("Hello Guest")
+#     case _:
+#         print("Hello, There!")
+
+i = 0
+while i < 5:
+    print (i)
+    i += 2
