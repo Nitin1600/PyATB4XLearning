@@ -17,17 +17,19 @@ class Employee:
         self.eid = eid
 
     def walk(self):
-        print("Walks")
+        print(f"{self.name} Walks")
+
 
     def talk(self):
-        print("Talks")
+        print(f"{self.name} Talks")
+
 
 employee1 = Employee(input("Enter name: "), int(input("Enter age: ")), int(input("Enter phone num: ")), input("Enter address: "), input("Enter eid: "))
-print(employee1.name)
-print(employee1.age)
-print(employee1.phone_num)
-print(employee1.address)
-print(employee1.eid)
+print("name=", employee1.name)
+print("age=",employee1.age)
+print("phone_num=",employee1.phone_num)
+print("address=",employee1.address)
+print("eid=",employee1.eid)
 employee1.walk()
 employee1.talk()
 
