@@ -2,13 +2,15 @@
 
 
 class Employee:
-
+    
+    #A
     name = None
     age = None
     phone = None
     address = None
     eid = None
-
+    
+    #B
     def __init__(self,name,age,phone_num,address,eid):
         self.name = name
         self.age = age
